@@ -1,0 +1,15 @@
+  
+  THE API ROUTES ARE:
+
+
+  GET|HEAD        api/members ............................................. members.index › Api\MemberController@index
+  POST            api/members ............................................. members.store › Api\MemberController@store
+  GET|HEAD        api/members/{member} ...................................... members.show › Api\MemberController@show
+  PUT|PATCH       api/members/{member} .................................. members.update › Api\MemberController@update
+  DELETE          api/members/{member} ................................ members.destroy › Api\MemberController@destroy
+  GET|HEAD        api/payments .......................................... payments.index › Api\PaymentController@index
+  POST            api/payments .......................................... payments.store › Api\PaymentController@store
+  GET|HEAD        api/payments/{payment} .................................. payments.show › Api\PaymentController@show
+  PUT|PATCH       api/payments/{payment} .............................. payments.update › Api\PaymentController@update
+  DELETE          api/payments/{payment} ............................ payments.destroy › Api\PaymentController@destroy
+  GET|HEAD        sanctum/csrf-cookie .............. sanctum.csrf-cookie › Laravel\Sanctum › CsrfCookieController@show
